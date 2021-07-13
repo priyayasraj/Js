@@ -13,10 +13,11 @@
         }    
         plus(x1,y1)
         {
-            let final =[] 
-            final[0]=this.x + x1;
-            final[1] = this.y + y1;
+            const final = {};
+            final.X = this.x + x1;
+            final.Y = this.y + y1;
             return final;
+            
         }
   }
   let points = new Point(2,3);
